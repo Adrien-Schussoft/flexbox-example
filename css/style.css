@@ -29,6 +29,18 @@ body {
 .imgJava{
     height: auto;
     max-width: 25%;
-   width: auto;
+    width: auto;
     
+}
+@media screen and (max-width: 750px){
+    .content{
+        flex-basis: 100%;
+    }
+    .sidebar{
+        flex-basis: 100%;
+        order: 1;
+    }
+    .footer{
+        order: 2;
+    }
 }
